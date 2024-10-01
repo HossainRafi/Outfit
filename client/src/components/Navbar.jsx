@@ -1,13 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../src/assets/logo.png";
-import { IoIosSearch } from "react-icons/io";
-import { RiShoppingBag4Line } from "react-icons/ri";
+import { GrSearch } from "react-icons/gr";
 import { FaRegUser } from "react-icons/fa";
+import { RiShoppingBag4Line } from "react-icons/ri";
 
 const Navbar = () => {
   return (
     <header className="fixed-nav-bar w-nav">
-      <nav className="max-w-screen-2xl mx-auto px-4 flex justify-between items-center bg-blue-200">
+      <nav className="max-w-screen-2xl mx-auto px-4 flex justify-between items-center mb-2">
         {/* nav links items */}
         <ul className="nav__links">
           <li className="link">
@@ -55,7 +55,7 @@ const Navbar = () => {
           {/* search icon */}
           <span>
             <Link to="/search">
-              <IoIosSearch className="text-2xl font-bold" />
+              <GrSearch className="text-2xl" />
             </Link>
           </span>
 
