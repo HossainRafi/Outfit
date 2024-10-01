@@ -9,7 +9,7 @@ const Categories = () => {
     { id: 1, name: "Men", path: "men", image: category1 },
     { id: 2, name: "Women", path: "women", image: category2 },
     { id: 3, name: "Kids", path: "kids", image: category3 },
-    { id: 4, name: "Common", path: "common", image: category4 },
+    { id: 4, name: "Jersey", path: "jersey", image: category4 },
   ];
   return (
     <section className="product__grid">

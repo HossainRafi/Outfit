@@ -1,0 +1,108 @@
+[
+    {
+      "id": 1,
+      "name": "Full Sleeve T-Shirt",
+      "category": "men",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      "price": 79.99,
+      "oldPrice": 99.99,
+      "image": "https://fabrilife.com/products/6194db575d629-square.jpg?v=20",
+      "color": "black",
+      "rating": 5,
+      "author":"admin"
+    },
+    {
+      "id": 2,
+      "name": "Polo T-Shirt",
+      "category": "men",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      "price": 49.99,
+      "oldPrice": 99.99,
+      "image": "https://fabrilife.com/products/62178453a886d-square.jpg?v=20",
+      "color": "red",
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "name": "Formal Shirt",
+      "category": "men",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      "price": 199.99,
+      "image": "https://fabrilife.com/products/66a769f017476-square.jpg?v=20",
+      "color": "white",
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "name": "Kurti",
+      "category": "women",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      "price": 19.99,
+      "image": "https://fabrilife.com/products/664080932bb45-square.jpg?v=20",
+      "color": "red",
+      "rating": 4.2
+    },
+    {
+      "id": 5,
+      "name": "Tops",
+      "category": "women",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      "price": 29.99,
+      "oldPrice": 39.99,
+      "image": "https://fabrilife.com/products/653111a8594b3-square.png?v=20",
+      "color": "black",
+      "rating": 4.3
+    },
+    {
+      "id": 6,
+      "name": "T-Shirt",
+      "category": "kids",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      "price": 89.99,
+      "image": "https://fabrilife.com/products/630634814066a-square.jpg?v=20",
+      "color": "yellow",
+      "rating": 4.4
+    },
+    {
+      "id": 7,
+      "name": "Trouser",
+      "category": "kids",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      "price": 299.99,
+      "oldPrice": 349.99,
+      "image": "https://fabrilife.com/products/66269c1d31de5-square.jpg?v=20",
+      "color": "gray",
+      "rating": 4.8
+    },
+    {
+      "id": 8,
+      "name": "Brazil Jersey",
+      "category": "jersey",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      "price": 39.99,
+      "image": "https://fabrilife.com/products/6347e814261be-square.jpg?v=20",
+      "color": "blue",
+      "rating": 4.1
+    },
+    {
+      "id": 9,
+      "name": "Argentina Jersey",
+      "category": "jersey",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      "price": 49.99,
+      "image": "https://fabrilife.com/products/635fbb1e3e2ed-square.jpg?v=20",
+      "color": "sky",
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "name": "England Jersey",
+      "category": "jersey",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      "price": 59.99,
+      "oldPrice": 79.99,
+      "image": "https://fabrilife.com/products/6313030b3b08c-square.png?v=20",
+      "color": "green",
+      "rating": 4.2
+    }
+  ]
