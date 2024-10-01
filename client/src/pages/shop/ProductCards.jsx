@@ -1,5 +1,6 @@
-
-import RatingStars from './../../components/RatingStars';
+import RatingStars from "./../../components/RatingStars";
+import { RiShoppingBag4Line } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 
 const ProductCards = ({ products }) => {
   console.log(products);
@@ -8,16 +9,15 @@ const ProductCards = ({ products }) => {
       {products.map((product, index) => (
         <div key={index} className="product__card">
           <div className="relative">
-            <a href="/shop/66c593cf25dce5322a47fd8d">
+            <Link to="/shop/66c593cf25dce5322a47fd8d">
               <img
                 src={product?.image}
-                alt="Casual Pants for Women"
                 className="max-h-96 md:h-64 w-full object-cover hover:scale-105 transition-all duration-300"
               />
-            </a>
+            </Link>
             <div className="hover:block absolute top-3 right-3">
               <button>
-                <i className="ri-shopping-cart-2-line bg-primary p-1.5 text-white hover:bg-primary-dark"></i>
+                <RiShoppingBag4Line className="text-2xl bg-primary p-1 text-white hover:bg-primary-dark" />
               </button>
             </div>
           </div>
