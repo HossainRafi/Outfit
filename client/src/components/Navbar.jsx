@@ -2,11 +2,12 @@ import { Link, NavLink } from "react-router-dom";
 import Logo from "../../src/assets/logo.png";
 import { IoIosSearch } from "react-icons/io";
 import { RiShoppingBag4Line } from "react-icons/ri";
+import { FaRegUser } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <header className="fixed-nav-bar w-nav">
-      <nav className="max-w-screen-2xl mx-auto px-4 flex justify-between items-center bg-blue-500">
+      <nav className="max-w-screen-2xl mx-auto px-4 flex justify-between items-center bg-blue-200">
         {/* nav links items */}
         <ul className="nav__links">
           <li className="link">
@@ -66,6 +67,13 @@ const Navbar = () => {
               </sup>
               <RiShoppingBag4Line className="text-2xl" />
             </button>
+          </span>
+
+          {/* user icon */}
+          <span>
+            <Link to="/login">
+              <FaRegUser className="rounded-full cursor-pointer" />
+            </Link>
           </span>
         </div>
       </nav>
