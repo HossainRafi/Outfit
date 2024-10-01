@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../src/assets/logo.png";
 import { IoIosSearch } from "react-icons/io";
+import { RiShoppingBag4Line } from "react-icons/ri";
 
 const Navbar = () => {
   return (
@@ -55,6 +56,16 @@ const Navbar = () => {
             <Link to="/search">
               <IoIosSearch className="text-2xl font-bold" />
             </Link>
+          </span>
+
+          {/* cart icon */}
+          <span>
+            <button className="hover:text-primary relative">
+              <sup className="absolute -top-2 -right-1 bg-primary text-white rounded-full w-4 h-4 flex items-center justify-center text-xs">
+                0
+              </sup>
+              <RiShoppingBag4Line className="text-2xl" />
+            </button>
           </span>
         </div>
       </nav>
