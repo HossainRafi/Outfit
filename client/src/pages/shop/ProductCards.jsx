@@ -1,4 +1,8 @@
+
+import RatingStars from './../../components/RatingStars';
+
 const ProductCards = ({ products }) => {
+  console.log(products);
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
       {products.map((product, index) => (
@@ -23,7 +27,7 @@ const ProductCards = ({ products }) => {
               ${product?.price}{" "}
               {product?.oldPrice ? <s>{product?.oldPrice}</s> : null}
             </p>
-            <h1>ratting</h1>
+            <RatingStars rating={product?.rating} />
           </div>
         </div>
       ))}
