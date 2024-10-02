@@ -4,6 +4,7 @@ import ShopPage from "../pages/shop/ShopPage";
 import ErrorPage from "./../components/ErrorPage";
 import CategoryPage from "../pages/category/CategoryPage";
 import { createBrowserRouter } from "react-router-dom";
+import Login from "../components/Login";
 
 export const router = createBrowserRouter([
   {
@@ -24,5 +25,9 @@ export const router = createBrowserRouter([
         element: <CategoryPage />,
       },
     ],
+  },
+  {
+    path: "/login",
+    element: <Login />,
   },
 ]);
