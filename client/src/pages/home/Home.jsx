@@ -1,3 +1,4 @@
+import Blogs from "../blogs/Blogs";
 import Banner from "./Banner";
 import Categories from "./Categories";
 import DealsSection from "./DealsSection";
@@ -12,6 +13,7 @@ const Home = () => {
       <DealsSection />
       <TrendingProducts />
       <Features />
+      <Blogs />
     </>
   );
 };
