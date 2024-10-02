@@ -12,17 +12,25 @@ const Categories = () => {
     { id: 4, name: "Jersey", path: "jersey", image: category4 },
   ];
   return (
-    <section className="product__grid">
-      {categories.map((category, index) => (
-        <Link
-          key={index}
-          className="categories__card"
-          to={`/categories/${category.path}`}
-        >
-          <img src={category.image} />
-          <h4>{category.name}</h4>
-        </Link>
-      ))}
+    <section className=" section__container">
+      <h2 className="section__header">Products Category</h2>
+      <p className="section__subheader">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+        consectetur inventore sapiente earum sequi! Et quasi reprehenderit
+        recusandae doloremque magni
+      </p>
+      <div className="product__grid">
+        {categories.map((category, index) => (
+          <Link
+            key={index}
+            className="categories__card"
+            to={`/categories/${category.path}`}
+          >
+            <img src={category.image} />
+            <h4>{category.name}</h4>
+          </Link>
+        ))}
+      </div>
     </section>
   );
 };
