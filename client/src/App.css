@@ -293,7 +293,7 @@ nav {
 
 .deals__container {
   background-color: var(--primary-color-light);
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;

@@ -1,5 +1,6 @@
 import Banner from "./Banner";
 import Categories from "./Categories";
+import DealsSection from "./DealsSection";
 import TrendingProducts from "./TrendingProducts";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Banner />
       <Categories />
+      <DealsSection />
       <TrendingProducts />
     </>
   );
