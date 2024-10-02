@@ -1,10 +1,11 @@
 import App from "./../App";
 import Home from "../pages/home/Home";
-import ShopPage from "../pages/shop/ShopPage";
-import ErrorPage from "./../components/ErrorPage";
-import CategoryPage from "../pages/category/CategoryPage";
-import { createBrowserRouter } from "react-router-dom";
 import Login from "../components/Login";
+import ShopPage from "../pages/shop/ShopPage";
+import Register from "../components/Register";
+import ErrorPage from "./../components/ErrorPage";
+import { createBrowserRouter } from "react-router-dom";
+import CategoryPage from "../pages/category/CategoryPage";
 
 export const router = createBrowserRouter([
   {
@@ -29,5 +30,9 @@ export const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
   },
 ]);
