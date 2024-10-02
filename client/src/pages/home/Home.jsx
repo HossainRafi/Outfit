@@ -1,8 +1,8 @@
-import Blogs from "../blogs/Blogs";
 import Banner from "./Banner";
+import Features from "./Features";
+import Blogs from "../blogs/Blogs";
 import Categories from "./Categories";
 import DealsSection from "./DealsSection";
-import Features from "./Features";
 import TrendingProducts from "./TrendingProducts";
 
 const Home = () => {
