@@ -56,14 +56,13 @@ const Register = () => {
           </button>
         </form>
         <div className="my-5 text-sm text-center">
-          Have an account? Please{" "}
+          Have an account ? Please
           <Link
             to="/login"
             className="text-red-700 px-1 underline cursor-pointer"
           >
             Login
-          </Link>{" "}
-          here
+          </Link>
         </div>
       </div>
     </section>

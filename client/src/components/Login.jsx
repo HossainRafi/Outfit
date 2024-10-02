@@ -44,14 +44,13 @@ const Login = () => {
           </button>
         </form>
         <div className="my-5 text-sm text-center">
-          Don't have an account?{" "}
+          Don't have an account ? Please
           <Link
             to="/register"
             className="text-red-700 px-1 underline cursor-pointer"
           >
             Register
-          </Link>{" "}
-          here
+          </Link>
         </div>
       </div>
     </section>
