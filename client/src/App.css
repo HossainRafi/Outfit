@@ -368,11 +368,11 @@ nav {
 }
 
 .banner__container {
-  max-width: var(--max-width-900);
+  /* max-width: var(--max-width-900); */
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
 }
 
 .banner__card {
