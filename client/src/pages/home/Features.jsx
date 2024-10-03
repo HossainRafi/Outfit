@@ -1,5 +1,5 @@
 import { FaTruck } from "react-icons/fa";
-import { AiOutlineDollar } from "react-icons/ai";
+import { AiFillDollarCircle } from "react-icons/ai";
 import { RiUserVoiceFill } from "react-icons/ri";
 
 const Features = () => {
@@ -17,7 +17,7 @@ const Features = () => {
       <div className="banner__card">
         <span>
           <i className="ri-money-dollar-circle-line"></i>
-          <AiOutlineDollar />
+          <AiFillDollarCircle />
         </span>
         <h4>100% Money Back Guaranty</h4>
         <p>
