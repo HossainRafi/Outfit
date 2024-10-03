@@ -6,7 +6,13 @@ import { AiFillDollarCircle } from "react-icons/ai";
 const Features = () => {
   return (
     <section className="section__container">
-      <div className="banner__container">
+      <h2 className="section__header">Our Best Features</h2>
+      <p className="section__subheader">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores
+        consectetur inventore sapiente earum sequi! Et quasi reprehenderit
+        recusandae doloremque magni
+      </p>
+      <div className="banner__container pt-12">
         {/* free delivery div */}
         <div className="banner__card">
           <span>
