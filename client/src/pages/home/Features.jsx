@@ -1,6 +1,6 @@
 import { FaTruck } from "react-icons/fa";
-import { AiFillDollarCircle } from "react-icons/ai";
 import { RiUserVoiceFill } from "react-icons/ri";
+import { AiFillDollarCircle } from "react-icons/ai";
 
 const Features = () => {
   return (
@@ -11,7 +11,8 @@ const Features = () => {
         </span>
         <h4>Free Delivery</h4>
         <p>
-          Offers convenience and the ability to shop from anywhere, anytime.
+          Lorem ipsum dolor sit amet consectetur adipisicing. dolor sit
+          amet
         </p>
       </div>
       <div className="banner__card">
@@ -21,7 +22,8 @@ const Features = () => {
         </span>
         <h4>100% Money Back Guaranty</h4>
         <p>
-          E-commerce have a review system where customers can share feedback.
+          Lorem ipsum dolor sit amet consectetur adipisicing. dolor sit
+          amet
         </p>
       </div>
       <div className="banner__card">
@@ -30,8 +32,8 @@ const Features = () => {
         </span>
         <h4>Strong Support</h4>
         <p>
-          Offer customer support services to assist customers with queries and
-          issues.
+          Lorem ipsum dolor sit amet consectetur adipisicing. dolor sit
+          amet
         </p>
       </div>
     </section>
