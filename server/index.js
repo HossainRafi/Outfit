@@ -1,19 +1,17 @@
 const express = require("express");
 const app = express();
+require("dotenv").config();
 const mongoose = require("mongoose");
 const port = process.env.PORT || 5000;
 
-// hossainrafi71;
-// SkZurglfGOv7oUeP;
-
 async function main() {
-  await mongoose.connect(
-    "mongodb+srv://hossainrafi71:SkZurglfGOv7oUeP@outfit.at2dm.mongodb.net/?retryWrites=true&w=majority&appName=Outfit"
-  );
+  await mongoose.connect(process.env.DB_URL);
 }
 main()
   .then(() =>
-    console.log("MongoDB Connected Successfully=================================== !!!!")
+    console.log(
+      "MongoDB Connected Successfully=================================== !!!!"
+    )
   )
   .catch((err) => console.log(err));
 
