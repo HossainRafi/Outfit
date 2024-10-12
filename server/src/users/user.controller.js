@@ -1,9 +1,16 @@
+const User = require("./user.model");
+
 // user registration
 const userRegistration = async (req, res) => {
   try {
-    res.send("From user router");
+    const { username, email, password } = req.body;
+
+    const user = new User({ username, email, password });
+    await user.save();
+    res.status(200).send({ message: "Registration successful!" });
   } catch (error) {
-    console.error("Error: ", error);
+    console.error("Error registering a user ", error);
+    res.status(500).send({ message: "Registration failed!" });
   }
 };
 
