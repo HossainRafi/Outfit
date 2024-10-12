@@ -28,13 +28,13 @@ async function main() {
 main()
   .then(() =>
     console.log(
-      "MongoDB Connected Successfully=================================== !!!!"
+      "MongoDB Connected Successfully=============================== !!!!"
     )
   )
   .catch((err) => console.log(err));
 
 app.listen(port, () => {
   console.log(
-    `The Outfit Websites Server is running on PORT =================== ${port}`
+    `Outfit Websites Server is running on PORT =================== ${port}`
   );
 });
